@@ -107,7 +107,8 @@ createPoint(23.6345, -102.5528)
 createPoint(-14.235, -51.9253)
 createPoint(20.5937, 78.9629)
 createPoint(35.8617, 104.1954)
-createPoint(37.0902, -95.7129)
+createPoint(37.0902, -9
+  5.7129)
 
 sphere.rotation.y = -Math.PI / 2
 

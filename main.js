@@ -167,7 +167,7 @@ function createBoxes(countries) {
     group.add(box)
 
     gsap.to(box.scale, {
-      z: 2,
+      z: 0,
       duration: 2,
       yoyo: true,
       repeat: -1,
@@ -300,7 +300,7 @@ function animate() {
     const box = intersects[i].object
     box.material.opacity = 1
     gsap.set(popUpEl, {
-      display: 'block'
+      display: 'solid'
     })
     populationEl.innerHTML = box.country
 

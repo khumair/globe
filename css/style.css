@@ -45,7 +45,7 @@ li {
 
 .homePage {
     min-height: 100vh;
-    background-color: #061121;
+    background-color: #050d21;
     overflow: hidden;
 }
 
@@ -826,10 +826,8 @@ footer .container {
     background-color: #198FFD;
 }
 
-.detailSec img {
-    height: 40%;
-    margin-top: auto;
-    width: 30%;
+.detailSec {
+    align-items: center;
 }
 
 .detailSec {
@@ -837,12 +835,15 @@ footer .container {
     padding-bottom: 30px;
 }
 
+.detailSec .row {
+    align-items: flex-end;
+}
+
 .extras {
-    margin: 20px 10px;
-    padding: 10px 20px;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
+    margin: 0;
 }
 
 .extras:first-child {
@@ -1068,6 +1069,19 @@ header .navbar-brand {
     border: none;
     border-bottom: 1px solid #B3CEE2;
     padding: 0;
+    color: #B3CEE2;
+}
+
+.footer-content .form-control:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #B3CEE2;
+}
+
+.footer-content label {
+    color: #B3CEE2;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .footer-content .relative {
@@ -1171,6 +1185,36 @@ footer {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.social-links {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.partner-logos {
+    display: flex;
+    align-items: center;
+    margin: 0 -4px;
+}
+
+.partner-logos li {
+    padding: 0 4px;
+}
+
+.quick-links {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    margin: 0 -15px;
+}
+
+.quick-links li {
+    padding: 0 15px;
+}
+
+.quick-links li a {
+    color: #F0F9FF;
 }
 
 /* Hover population */
