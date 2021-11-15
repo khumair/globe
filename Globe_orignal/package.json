@@ -1,0 +1,19 @@
+{
+  "name": "globe-v1",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^2.1.0",
+    "vite-plugin-string": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "gsap": "^3.6.1",
+    "three": "^0.128.0"
+  }
+}
