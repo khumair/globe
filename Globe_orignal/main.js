@@ -1,6 +1,6 @@
 // import './css/bootstrap.min.css'
 // import './tailwind.css'
-import * as THREE from 'https://unpkg.com/three@0.128.0/build/three.module.js'
+// import * as THREE from 'https://unpkg.com/three@0.128.0/build/three.module.js'
 import gsap from 'gsap'
 import * as THREE from 'three'
 import vertexShader from './shaders/vertex.glsl'
